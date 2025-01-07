@@ -1,4 +1,5 @@
-\title{Pruning and Quantization Impact on Graph Neural Networks}
+## Title
+Pruning and Quantization Impact on Graph Neural Networks
 
 ## Overview
 Compression algorithms in neural networks are essential for reducing the model size while maintaining their performance. Relevant techniques in compression include pruning and quantization. Pruning is a technique to reduce the number of parameters and connections, which can improve the final model efficiency with tolerable degradation in its accuracy, and quantization refers to the process of replacing floating-point numbers with lower bits.
@@ -7,12 +8,14 @@ We empirically examine the effects of magnitude-based pruning methods such as re
 
 For fine-grain and global unstructured, we implement three steps: training base model, pruning of base model and finally fine-tuning pruned model.
 
-python==3.10.6
-dgl==1.1.2
-pytorch==2.0.1+cpu
-torch-scatter==2.1.1+pt20cpu
-torch-sparse==0.6.17
-torch-geometric==2.4.0
+### Requirements
+
+    python==3.10.6
+    dgl==1.1.2
+    pytorch==2.0.1+cpu
+    torch-scatter==2.1.1+pt20cpu
+    torch-sparse==0.6.17
+    torch-geometric==2.4.0
 
 ## Contact
 
