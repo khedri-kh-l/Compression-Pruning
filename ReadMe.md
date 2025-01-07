@@ -7,7 +7,12 @@ We empirically examine the effects of magnitude-based pruning methods such as re
 
 For fine-grain and global unstructured, we implement three steps: training base model, pruning of base model and finally fine-tuning pruned model.
 
-
+python==3.10.6
+dgl==1.1.2
+pytorch==2.0.1+cpu
+torch-scatter==2.1.1+pt20cpu
+torch-sparse==0.6.17
+torch-geometric==2.4.0
 
 ## Contact
 
