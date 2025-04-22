@@ -21,4 +21,4 @@ For fine-grain and global unstructured, we implement three steps: training base 
 
 If you have any technical questions, please submit a new issue.
 
-If you have other questions, please contact us: Khatoon.l Khedri [khedri.kh.l@gmail.com] or Reza Rawassizadeh [Rezar@bu.edu].
+If you have other questions, please contact us: Khatoon.l Khedri [khedri.kh.l@gmail.com], Reza Rawassizadeh [Rezar@bu.edu], or Qifu Wen[qfwen@bu.edu].
